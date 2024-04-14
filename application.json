@@ -1,0 +1,51 @@
+{
+  "pages": [
+    {
+      "id": "Post_Exchange",
+      "isDefault": false
+    },
+    {
+      "id": "ViewAffordableBooks",
+      "isDefault": false
+    },
+    {
+      "id": "MyTextbookPage",
+      "isDefault": false
+    },
+    {
+      "id": "Homepage",
+      "isDefault": true
+    },
+    {
+      "id": "Alex Johnson",
+      "isDefault": false
+    }
+  ],
+  "viewMode": false,
+  "appIsExample": false,
+  "unreadCommentThreads": 0,
+  "unpublishedApplicationDetail": {
+    "appPositioning": {
+      "type": "FIXED"
+    }
+  },
+  "color": "#C2DAF0",
+  "icon": "money",
+  "unpublishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "publishedAppLayout": {
+    "type": "DESKTOP"
+  },
+  "unpublishedCustomJSLibs": [
+    {
+      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
+    }
+  ],
+  "publishedCustomJSLibs": [],
+  "evaluationVersion": 2,
+  "applicationVersion": 2,
+  "collapseInvisibleWidgets": true,
+  "isManualUpdate": false,
+  "deleted": false
+}
