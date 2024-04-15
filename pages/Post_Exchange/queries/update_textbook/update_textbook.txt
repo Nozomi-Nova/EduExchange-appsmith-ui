@@ -1,0 +1,4 @@
+{
+	"offer_id": "{{JSONForm2.formData.offer_id}}",
+	"new_condition": "{{JSONForm2.formData.new_condition}}"
+}
