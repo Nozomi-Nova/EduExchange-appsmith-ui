@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 680,
+          "bottomRow": 1020,
           "containerStyle": "none",
           "snapRows": 128,
           "parentRowSpace": 1,
@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "MyTextbookPage_get_user_textbooks",
-              "name": "get_user_textbooks",
+              "id": "MyTextbookPage_get_my_textbooks",
+              "name": "get_my_textbooks",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [

@@ -1,6 +1,6 @@
 {
     "needsErrorInfo": false,
-    "boxShadow": "none",
+    "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
     "mobileBottomRow": 44,
     "widgetName": "ButtonGroup1",
     "isCanvas": false,
@@ -10,8 +10,8 @@
         "click",
         "submit"
     ],
-    "topRow": 12,
-    "bottomRow": 16,
+    "topRow": 14,
+    "bottomRow": 18,
     "parentRowSpace": 10,
     "type": "BUTTON_GROUP_WIDGET",
     "groupButtons": {
@@ -19,10 +19,11 @@
             "itemType": "BUTTON",
             "onClick": "{{navigateTo('Post_Exchange', {}, 'SAME_WINDOW');}}",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "iconName": "arrows-horizontal",
             "widgetId": "3iymm7bj72",
             "menuItems": {},
             "index": 2,
-            "label": "Update MyTextbooks",
+            "label": "Exchange Place",
             "isVisible": true,
             "buttonType": "SIMPLE",
             "buttonVariant": "filled",
@@ -30,27 +31,20 @@
             "isDisabled": false,
             "placement": "CENTER"
         },
-        "groupButtonu78fgmms83": {
-            "itemType": "BUTTON",
-            "buttonType": "SIMPLE",
-            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-            "widgetId": "0077y0z9m0",
-            "buttonVariant": "filled",
-            "menuItems": {},
-            "index": 3,
-            "id": "groupButtonu78fgmms83",
-            "label": "Donate Textbooks",
-            "isDisabled": false,
-            "isVisible": true,
-            "placement": "CENTER"
-        },
         "groupButton1": {
             "onClick": "{{navigateTo('ViewAffordableBooks', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
-            "iconName": "heart",
+            "iconName": "dollar",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "",
-            "menuItems": {},
+            "menuItems": {"menuItemq1wny8tbik": {
+                "widgetId": "asavhgeftl",
+                "index": 0,
+                "id": "menuItemq1wny8tbik",
+                "label": "Menu Item 1",
+                "isDisabled": false,
+                "isVisible": true
+            }},
             "index": 0,
             "label": "View Affordable Books",
             "id": "groupButton1",
@@ -61,7 +55,7 @@
         "groupButton2": {
             "onClick": "{{navigateTo('MyTextbookPage', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
-            "iconName": "add",
+            "iconName": "book",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "widgetId": "",
             "menuItems": {},
@@ -84,11 +78,9 @@
     ],
     "leftColumn": 6,
     "dynamicBindingPathList": [
-        {"key": "borderRadius"},
         {"key": "groupButtons.groupButton1.buttonColor"},
         {"key": "groupButtons.groupButton2.buttonColor"},
-        {"key": "groupButtons.groupButtonthncjpizqu.buttonColor"},
-        {"key": "groupButtons.groupButtonu78fgmms83.buttonColor"}
+        {"key": "groupButtons.groupButtonthncjpizqu.buttonColor"}
     ],
     "key": "hg4oeb3o6h",
     "orientation": "horizontal",
@@ -106,7 +98,7 @@
     "responsiveBehavior": "fill",
     "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
     "originalTopRow": 12,
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+    "borderRadius": "1.5rem",
     "mobileLeftColumn": 29,
     "originalBottomRow": 16,
     "buttonVariant": "PRIMARY"
