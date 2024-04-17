@@ -10,14 +10,14 @@
         "click",
         "submit"
     ],
-    "topRow": 18,
-    "bottomRow": 22,
+    "topRow": 14,
+    "bottomRow": 18,
     "parentRowSpace": 10,
     "type": "BUTTON_GROUP_WIDGET",
     "groupButtons": {
         "groupButton56xw91qepl": {
             "itemType": "BUTTON",
-            "onClick": "{{navigateTo('Community', {}, 'SAME_WINDOW');}}",
+            "onClick": "{{navigateTo('Community', {}, 'SAME_WINDOW').then(() => {\n  exchange_focused.run();\n});}}",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
             "iconName": "people",
             "widgetId": "88ba0sv69d",
@@ -122,9 +122,9 @@
     "mobileTopRow": 40,
     "responsiveBehavior": "fill",
     "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
-    "originalTopRow": 18,
+    "originalTopRow": 14,
     "borderRadius": "1.5rem",
     "mobileLeftColumn": 29,
-    "originalBottomRow": 22,
+    "originalBottomRow": 18,
     "buttonVariant": "PRIMARY"
 }

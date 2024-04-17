@@ -331,7 +331,7 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 93,
+    "bottomRow": 90,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Update Condition",
