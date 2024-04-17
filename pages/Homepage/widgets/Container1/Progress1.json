@@ -7,8 +7,8 @@
     "displayName": "Progress",
     "iconSVG": "/static/media/icon.d957681553199f5445fe4fb3038b7a64.svg",
     "searchTags": ["percent"],
-    "topRow": 9,
-    "bottomRow": 13,
+    "topRow": 15,
+    "bottomRow": 19,
     "parentRowSpace": 10,
     "type": "PROGRESS_WIDGET",
     "isIndeterminate": false,
@@ -37,7 +37,9 @@
     "isLoading": false,
     "mobileTopRow": 10,
     "responsiveBehavior": "fill",
+    "originalTopRow": 15,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 12,
+    "originalBottomRow": 19,
     "progress": "100"
 }

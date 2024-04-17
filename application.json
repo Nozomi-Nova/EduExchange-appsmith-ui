@@ -19,6 +19,14 @@
     {
       "id": "Alex Johnson",
       "isDefault": false
+    },
+    {
+      "id": "Wishlist",
+      "isDefault": false
+    },
+    {
+      "id": "WishlistItems",
+      "isDefault": false
     }
   ],
   "viewMode": false,
