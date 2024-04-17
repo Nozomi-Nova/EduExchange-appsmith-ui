@@ -10,11 +10,34 @@
         "click",
         "submit"
     ],
-    "topRow": 14,
-    "bottomRow": 18,
+    "topRow": 18,
+    "bottomRow": 22,
     "parentRowSpace": 10,
     "type": "BUTTON_GROUP_WIDGET",
     "groupButtons": {
+        "groupButton56xw91qepl": {
+            "itemType": "BUTTON",
+            "onClick": "{{navigateTo('Community', {}, 'SAME_WINDOW');}}",
+            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "iconName": "people",
+            "widgetId": "88ba0sv69d",
+            "menuItems": {"menuItem93agkgon3b": {
+                "widgetId": "bx8x1npm5i",
+                "index": 0,
+                "id": "menuItem93agkgon3b",
+                "label": "Menu Item 1",
+                "isDisabled": false,
+                "isVisible": true
+            }},
+            "index": 3,
+            "label": "Community",
+            "isVisible": true,
+            "buttonType": "SIMPLE",
+            "buttonVariant": "filled",
+            "id": "groupButton56xw91qepl",
+            "isDisabled": false,
+            "placement": "CENTER"
+        },
         "groupButtonthncjpizqu": {
             "itemType": "BUTTON",
             "onClick": "{{navigateTo('Post_Exchange', {}, 'SAME_WINDOW');}}",
@@ -74,13 +97,15 @@
     "dynamicTriggerPathList": [
         {"key": "groupButtons.groupButton1.onClick"},
         {"key": "groupButtons.groupButton2.onClick"},
-        {"key": "groupButtons.groupButtonthncjpizqu.onClick"}
+        {"key": "groupButtons.groupButtonthncjpizqu.onClick"},
+        {"key": "groupButtons.groupButton56xw91qepl.onClick"}
     ],
     "leftColumn": 6,
     "dynamicBindingPathList": [
         {"key": "groupButtons.groupButton1.buttonColor"},
         {"key": "groupButtons.groupButton2.buttonColor"},
-        {"key": "groupButtons.groupButtonthncjpizqu.buttonColor"}
+        {"key": "groupButtons.groupButtonthncjpizqu.buttonColor"},
+        {"key": "groupButtons.groupButton56xw91qepl.buttonColor"}
     ],
     "key": "hg4oeb3o6h",
     "orientation": "horizontal",
@@ -97,9 +122,9 @@
     "mobileTopRow": 40,
     "responsiveBehavior": "fill",
     "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
-    "originalTopRow": 12,
+    "originalTopRow": 18,
     "borderRadius": "1.5rem",
     "mobileLeftColumn": 29,
-    "originalBottomRow": 16,
+    "originalBottomRow": 22,
     "buttonVariant": "PRIMARY"
 }

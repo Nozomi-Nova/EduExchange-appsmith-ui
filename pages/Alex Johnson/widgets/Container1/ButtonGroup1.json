@@ -115,9 +115,9 @@
     "mobileTopRow": 40,
     "responsiveBehavior": "fill",
     "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
-    "originalTopRow": 14,
+    "originalTopRow": 18,
     "borderRadius": "1.5rem",
     "mobileLeftColumn": 29,
-    "originalBottomRow": 18,
+    "originalBottomRow": 22,
     "buttonVariant": "PRIMARY"
 }

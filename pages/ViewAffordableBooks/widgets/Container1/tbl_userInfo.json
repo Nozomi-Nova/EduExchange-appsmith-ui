@@ -57,7 +57,7 @@
     },
     "borderRadius": "1.5rem",
     "columnUpdatedAt": 1713017399206,
-    "originalBottomRow": 78,
+    "originalBottomRow": 73,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 45,
     "widgetName": "tbl_userInfo",
@@ -273,7 +273,7 @@
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
-    "originalTopRow": 20,
+    "originalTopRow": 15,
     "mobileLeftColumn": 1,
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"

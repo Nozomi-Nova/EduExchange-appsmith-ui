@@ -1,0 +1,5 @@
+{
+	"community_id": "{{JSON_Join_Comm.formData.community_id}}",
+	"user_id": "{{JSON_Join_Comm.formData.user_id}}"
+	"role": "{{JSON_Join_Comm.formData.role}}"
+}

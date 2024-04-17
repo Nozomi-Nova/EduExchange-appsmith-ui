@@ -48,7 +48,7 @@
     "widgetId": "zelwoh0663",
     "menuItems": {
         "menuItem1": {
-            "onClick": "{{navigateTo('Alex Johnson', {}, 'SAME_WINDOW');\nstoreValue('userID', '1');\nstoreValue('name', 'Alex Johnson');}}",
+            "onClick": "{{navigateTo('Alex Johnson', {}, 'SAME_WINDOW');\nstoreValue('userID', '1');\nstoreValue(\"\", \"\")}}",
             "iconName": "person",
             "widgetId": "",
             "iconColor": "{{appsmith.theme.colors.primaryColor}}",
