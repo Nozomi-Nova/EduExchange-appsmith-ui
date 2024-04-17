@@ -134,7 +134,7 @@
     },
     "disabledWhenInvalid": false,
     "borderRadius": "1.5rem",
-    "originalBottomRow": 10,
+    "originalBottomRow": 40,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",

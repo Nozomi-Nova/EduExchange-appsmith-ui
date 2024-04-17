@@ -138,7 +138,7 @@
     },
     "disabledWhenInvalid": false,
     "borderRadius": "1.5rem",
-    "originalBottomRow": 56,
+    "originalBottomRow": 86,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -400,7 +400,7 @@
     "scrollContents": true,
     "responsiveBehavior": "fill",
     "fixedFooter": true,
-    "originalTopRow": 19,
+    "originalTopRow": 49,
     "mobileLeftColumn": 3,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4
