@@ -2,7 +2,7 @@
     "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "{{add_textbook.run().then(() => {\n  postWindowMessage('Material has been added to your library!', \"window\", \"*\");\n  resetWidget(\"Table1\", true);\n});}}",
+    "onSubmit": "{{add_textbook.run().then(() => {\n  showAlert('Textbook Added!', 'success');\n  resetWidget(\"Table1\", true);\n});}}",
     "topRow": 46,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
@@ -125,7 +125,7 @@
     },
     "disabledWhenInvalid": true,
     "borderRadius": "1.5rem",
-    "originalBottomRow": 87,
+    "originalBottomRow": 95,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",

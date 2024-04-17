@@ -2,7 +2,7 @@
     "boxShadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "{{post_exchange.run()}}",
+    "onSubmit": "{{post_exchange.run().then(() => {\n  showAlert('Textbook Posted For Exchange!', 'success');\n}).catch(() => {\n  showAlert('Please Only Add Your Textbooks!', 'error');\n});}}",
     "topRow": 67,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,

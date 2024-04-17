@@ -33,8 +33,7 @@
         {"key": "menuColor"},
         {"key": "menuItems.menuItem1.iconColor"},
         {"key": "menuItems.menuItem2.iconColor"},
-        {"key": "menuItems.menuItem3.iconColor"},
-        {"key": "menuItems.menuItemkqs0geyw0s.iconColor"}
+        {"key": "menuItems.menuItem3.iconColor"}
     ],
     "isDisabled": false,
     "sourceData": [],
@@ -76,18 +75,6 @@
             "id": "menuItem2",
             "isVisible": true,
             "isDisabled": false
-        },
-        "menuItemkqs0geyw0s": {
-            "backgroundColor": "#ffffff",
-            "iconName": "person",
-            "widgetId": "nsnoh9xenc",
-            "iconColor": "{{appsmith.theme.colors.primaryColor}}",
-            "index": 3,
-            "id": "menuItemkqs0geyw0s",
-            "label": "Morgan Riviera ",
-            "isDisabled": false,
-            "isVisible": true,
-            "textColor": "#18181b"
         }
     },
     "isVisible": true,
