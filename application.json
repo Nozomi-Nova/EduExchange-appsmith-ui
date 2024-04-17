@@ -27,6 +27,14 @@
     {
       "id": "WishlistItems",
       "isDefault": false
+    },
+    {
+      "id": "Taylor Kim",
+      "isDefault": false
+    },
+    {
+      "id": "All Recycling Events",
+      "isDefault": false
     }
   ],
   "viewMode": false,
