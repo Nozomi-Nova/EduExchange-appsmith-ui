@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Post_Exchange",
+    "pageId": "Taylor Kim",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -30,7 +30,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{{JSONForm1.formData}}",
+      "body": "{{update_textbook_form.formData}}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
@@ -41,32 +41,32 @@
         }
       ],
       "formData": {
-        "apiContentType": "application/json"
+        "apiContentType": "none"
       }
     },
     "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
-        "key": "path"
+        "key": "body"
       },
       {
-        "key": "body"
+        "key": "path"
       }
     ],
     "isValid": true,
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "JSONForm1.formData",
-      "appsmith.store.userID"
+      "appsmith.store.userID",
+      "update_textbook_form.formData"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-13T14:28:41Z"
+    "createdAt": "2024-04-12T15:57:35Z"
   },
-  "id": "Post_Exchange_post_exchange",
+  "id": "Taylor Kim_post_exchange",
   "deleted": false,
-  "gitSyncId": "6617ae062d5b4f38fd3ab2cd_661a9699304b4301da8a6261"
+  "gitSyncId": "661f0832b5273838f84b4e14_661f1d3cb5273838f84b4e46"
 }

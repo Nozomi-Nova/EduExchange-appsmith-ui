@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Post_Exchange",
-    "slug": "post-exchange",
+    "name": "Morgan Rivera",
+    "slug": "morgan-rivera",
     "layouts": [
       {
         "viewMode": false,
@@ -13,33 +13,22 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1300,
+          "bottomRow": 770,
           "containerStyle": "none",
-          "snapRows": 128,
+          "snapRows": 108,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 1300,
+          "minHeight": 1100,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Post_Exchange_get_exchanged_books",
-              "name": "get_exchanged_books",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
+        "layoutOnLoadActions": [],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Post_Exchange",
+        "id": "Morgan Rivera",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -50,5 +39,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "6617ae062d5b4f38fd3ab2cd_661a95f5304b4301da8a625b"
+  "gitSyncId": "661f0832b5273838f84b4e14_661f1d3fb5273838f84b4e51"
 }
