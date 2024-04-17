@@ -31,6 +31,22 @@
             "isDisabled": false,
             "placement": "CENTER"
         },
+        "groupButtontohk687444": {
+            "itemType": "BUTTON",
+            "onClick": "{{navigateTo('Wishlist', {}, 'SAME_WINDOW');}}",
+            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "iconName": "add-to-artifact",
+            "widgetId": "bjfzw9ypst",
+            "menuItems": {},
+            "index": 3,
+            "label": "View Wishlists",
+            "isVisible": true,
+            "buttonType": "SIMPLE",
+            "buttonVariant": "filled",
+            "id": "groupButtontohk687444",
+            "isDisabled": false,
+            "placement": "CENTER"
+        },
         "groupButton1": {
             "onClick": "{{navigateTo('ViewAffordableBooks', {}, 'SAME_WINDOW');}}",
             "buttonType": "SIMPLE",
@@ -74,18 +90,20 @@
     "dynamicTriggerPathList": [
         {"key": "groupButtons.groupButton1.onClick"},
         {"key": "groupButtons.groupButton2.onClick"},
-        {"key": "groupButtons.groupButtonthncjpizqu.onClick"}
+        {"key": "groupButtons.groupButtonthncjpizqu.onClick"},
+        {"key": "groupButtons.groupButtontohk687444.onClick"}
     ],
     "leftColumn": 6,
     "dynamicBindingPathList": [
         {"key": "groupButtons.groupButton1.buttonColor"},
         {"key": "groupButtons.groupButton2.buttonColor"},
-        {"key": "groupButtons.groupButtonthncjpizqu.buttonColor"}
+        {"key": "groupButtons.groupButtonthncjpizqu.buttonColor"},
+        {"key": "groupButtons.groupButtontohk687444.buttonColor"}
     ],
     "key": "hg4oeb3o6h",
     "orientation": "horizontal",
     "isDeprecated": false,
-    "rightColumn": 46,
+    "rightColumn": 49,
     "widgetId": "ath9oreznr",
     "minWidth": 450,
     "isVisible": true,

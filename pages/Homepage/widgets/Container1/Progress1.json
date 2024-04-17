@@ -7,6 +7,7 @@
     "displayName": "Progress",
     "iconSVG": "/static/media/icon.d957681553199f5445fe4fb3038b7a64.svg",
     "searchTags": ["percent"],
+
     "topRow": 16,
     "bottomRow": 20,
     "parentRowSpace": 10,

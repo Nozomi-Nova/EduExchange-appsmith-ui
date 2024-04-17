@@ -152,7 +152,7 @@
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(Add_textbook_form.sourceData, Add_textbook_form.formData, Add_textbook_form.fieldState)}}",
                 "dataType": "number",
                 "accessor": "TextbookID",
-                "isVisible": false,
+                "isVisible": true,
                 "label": "Textbook ID",
                 "originalIdentifier": "TextbookID",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(Add_textbook_form.sourceData, Add_textbook_form.formData, Add_textbook_form.fieldState)}}",
@@ -161,7 +161,7 @@
                 "iconAlign": "left",
                 "position": 2,
                 "isDisabled": false,
-                "sourceData": 7,
+                "sourceData": 1,
                 "fieldType": "Number Input"
             },
             "ISBN": {
@@ -253,7 +253,7 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 87,
+    "bottomRow": 95,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Add Textbook",
