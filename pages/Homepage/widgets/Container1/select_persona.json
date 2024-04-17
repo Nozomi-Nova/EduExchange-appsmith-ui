@@ -47,15 +47,6 @@
     "menuVariant": "SECONDARY",
     "widgetId": "zelwoh0663",
     "menuItems": {
-        "menuItemzxrmcn4iag": {
-            "iconName": "small-plus",
-            "widgetId": "y6j3uotqd1",
-            "index": 4,
-            "id": "menuItemzxrmcn4iag",
-            "label": "Sign Up",
-            "isDisabled": false,
-            "isVisible": true
-        },
         "menuItem1": {
             "onClick": "{{navigateTo('Alex Johnson', {}, 'SAME_WINDOW');\nstoreValue('userID', '1');\nstoreValue('name', 'Alex Johnson');}}",
             "iconName": "person",
