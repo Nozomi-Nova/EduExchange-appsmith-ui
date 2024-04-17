@@ -16,15 +16,18 @@
     },
     "displayName": "Menu button",
     "iconSVG": "/static/media/icon.631848e88e7a3db05f6015f22835e81b.svg",
-    "topRow": 32,
-    "bottomRow": 38,
+    "topRow": 26,
+    "bottomRow": 32,
     "parentRowSpace": 10,
     "type": "MENU_BUTTON_WIDGET",
     "hideCard": false,
     "mobileRightColumn": 23,
     "animateLoading": true,
     "parentColumnSpace": 16.404296875,
-    "dynamicTriggerPathList": [{"key": "menuItems.menuItem1.onClick"}],
+    "dynamicTriggerPathList": [
+        {"key": "menuItems.menuItem1.onClick"},
+        {"key": "menuItems.menuItem3.onClick"}
+    ],
     "leftColumn": 22,
     "dynamicBindingPathList": [
         {"key": "menuColor"},
@@ -54,6 +57,7 @@
             "isDisabled": false
         },
         "menuItem3": {
+            "onClick": "{{navigateTo('Taylor Kim', {}, 'SAME_WINDOW').then(() => {\n  storeValue('name', 'Taylor Kim');\n  storeValue('userID', '3');\n});}}",
             "iconName": "person",
             "widgetId": "",
             "iconColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -94,12 +98,12 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "mobileTopRow": 9,
-    "originalTopRow": 32,
+    "originalTopRow": 26,
     "borderRadius": "1.5rem",
     "mobileLeftColumn": 7,
     "menuItemsSource": "STATIC",
     "menuColor": "{{appsmith.theme.colors.primaryColor}}",
-    "originalBottomRow": 41,
+    "originalBottomRow": 32,
     "iconAlign": "left",
     "placement": "CENTER"
 }
