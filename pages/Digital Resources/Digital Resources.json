@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Wishlist",
-    "slug": "wishlist",
+    "name": "Digital Resources",
+    "slug": "digital-resources",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 470,
+          "bottomRow": 690,
           "containerStyle": "none",
           "snapRows": 46,
           "parentRowSpace": 1,
@@ -28,20 +28,18 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Wishlist_get_all_wishlists",
-              "name": "get_all_wishlists",
+              "id": "Digital Resources_Get_all_digital_resources",
+              "name": "Get_all_digital_resources",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [
-                "appsmith.store.userID"
-              ],
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Wishlist",
+        "id": "Digital Resources",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -52,5 +50,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "661ee0bada96307147a2c148_661f20d332db44725745c853"
+  "gitSyncId": "66213d8f87dee26c172ce934_662166a2f608e4564a83828a"
 }

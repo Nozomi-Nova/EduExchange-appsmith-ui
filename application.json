@@ -35,6 +35,10 @@
     {
       "id": "All Recycling Events",
       "isDefault": false
+    },
+    {
+      "id": "Digital Resources",
+      "isDefault": false
     }
   ],
   "viewMode": false,

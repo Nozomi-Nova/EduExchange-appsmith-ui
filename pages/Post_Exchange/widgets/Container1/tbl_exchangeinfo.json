@@ -20,7 +20,7 @@
         {"key": "primaryColumns.OfferID.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 2,
+    "leftColumn": 0,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -80,6 +80,7 @@
         "image": 85,
         "gender": 115,
         "name": 161,
+        "Title": 205,
         "id": 94
     },
     "parentRowSpace": 10,
@@ -331,7 +332,7 @@
     "key": "1hz6z5p49i",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 64,
+    "rightColumn": 61,
     "textSize": "0.875rem",
     "widgetId": "56er52c53d",
     "enableServerSideFiltering": false,
