@@ -162,7 +162,7 @@
                 "iconAlign": "left",
                 "position": 2,
                 "isDisabled": false,
-                "sourceData": 1,
+                "sourceData": 18,
                 "fieldType": "Number Input"
             },
             "ISBN": {
