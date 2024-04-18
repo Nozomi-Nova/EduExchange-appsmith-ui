@@ -147,7 +147,7 @@
             "verticalAlignment": "CENTER"
         }
     },
-    "onRowSelected": "{{navigateTo('WishlistItems', {}, 'SAME_WINDOW').then(() => {\n  storeValue('wishlistid', storeValue('wishlist_id', Table1.selectedRow.wishlist_id));\n});}}",
+    "onRowSelected": "{{navigateTo('WishlistItems', {}, 'SAME_WINDOW').then(() => {\n  storeValue('wishlist_id', storeValue('wishlist_id', Table1.selectedRow.wishlist_id));\n});}}",
     "key": "h498k2hdw3",
     "canFreezeColumn": true,
     "isDeprecated": false,
