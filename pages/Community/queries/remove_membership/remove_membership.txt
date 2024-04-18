@@ -1,3 +1,4 @@
 {
-	"offer_id": "{{JSON_Leave_Community.formData.offer_id}}"
+  "community_id": "{{JSON_Join_Comm.formData.CommunityID.toString()}}",
+  "user_id": "{{appsmith.store.userID}}"
 }

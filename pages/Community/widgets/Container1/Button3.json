@@ -12,8 +12,8 @@
         "click",
         "submit"
     ],
-    "topRow": 120,
-    "bottomRow": 124,
+    "topRow": 80,
+    "bottomRow": 84,
     "parentRowSpace": 10,
     "type": "BUTTON_WIDGET",
     "hideCard": false,
@@ -21,7 +21,7 @@
     "animateLoading": true,
     "parentColumnSpace": 16.50390625,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 9,
+    "leftColumn": 8,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -30,7 +30,7 @@
     "isDisabled": false,
     "key": "h3uxvjrqrq",
     "isDeprecated": false,
-    "rightColumn": 25,
+    "rightColumn": 24,
     "thumbnailSVG": "/static/media/thumbnail.a348658e996feaad96cadc30d99374ff.svg",
     "isDefaultClickDisabled": true,
     "widgetId": "rsaprcgywa",
@@ -44,11 +44,11 @@
     "isLoading": false,
     "mobileTopRow": 77,
     "responsiveBehavior": "hug",
-    "originalTopRow": 120,
+    "originalTopRow": 80,
     "disabledWhenInvalid": false,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 16,
-    "originalBottomRow": 124,
+    "originalBottomRow": 84,
     "buttonVariant": "PRIMARY",
     "placement": "CENTER"
 }

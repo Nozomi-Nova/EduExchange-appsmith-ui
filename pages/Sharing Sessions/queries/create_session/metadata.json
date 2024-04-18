@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/eo/update_condition"
+        "url": "web:4000/c/sharing_sessions"
       },
       "invalids": [],
       "messages": [],
@@ -30,9 +30,9 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\t\"offer_id\": \"{{JSONForm2.formData.offer_id}}\",\n\t\"new_condition\": \"{{JSONForm2.formData.new_condition}}\"\n}\n",
+      "body": "{\n\t\"community\": \"{{JSON_Create_Session.formData.community}}\",\n\t\"schedule\": \"{{JSON_Create_Session.formData.schedule}}\",\n\t\"resource\": \"{{JSON_Create_Session.formData.resource}}\"\n}\n",
       "bodyFormData": [],
-      "httpMethod": "PUT",
+      "httpMethod": "POST",
       "httpVersion": "HTTP11",
       "selfReferencingDataPaths": [],
       "pluginSpecifiedTemplates": [
@@ -44,7 +44,7 @@
         "apiContentType": "application/json"
       }
     },
-    "executeOnLoad": true,
+    "executeOnLoad": false,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -54,8 +54,9 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "JSONForm2.formData.new_condition",
-      "JSONForm2.formData.offer_id"
+      "JSON_Create_Session.formData.community",
+      "JSON_Create_Session.formData.resource",
+      "JSON_Create_Session.formData.schedule"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

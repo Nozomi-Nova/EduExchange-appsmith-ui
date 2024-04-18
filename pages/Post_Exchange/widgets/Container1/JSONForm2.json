@@ -329,7 +329,7 @@
         "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
         "buttonVariant": "PRIMARY"
     },
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "sourceData"}],
     "displayName": "JSON Form",
     "bottomRow": 93,
     "fieldLimitExceeded": false,
@@ -340,7 +340,7 @@
     "parentColumnSpace": 19.8125,
     "dynamicTriggerPathList": [{"key": "onSubmit"}],
     "borderWidth": "1",
-    "sourceData": "{{tbl_exchangeinfo.selectedRow}}",
+    "sourceData": "{{get_exchanged_books.data}}",
     "resetButtonLabel": "Reset",
     "key": "sqvy53ivms",
     "backgroundColor": "#fff",

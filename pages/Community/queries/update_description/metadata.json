@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n    \"community_id\": {{JSON_Update_Desc.formData.community_id}},\n    \"new_description\": {{JSON_Update_Desc.formData.new_description}}\n}",
+      "body": "{\n    \"community_id\": {{JSON_Update_Desc.formData.CommunityID}},\n    \"new_description\": {{JSON_Update_Desc.formData.Description}}\n}",
       "bodyFormData": [],
       "httpMethod": "PUT",
       "httpVersion": "HTTP11",
@@ -53,8 +53,8 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "JSON_Update_Desc.formData.community_id",
-      "JSON_Update_Desc.formData.new_description"
+      "JSON_Update_Desc.formData.CommunityID",
+      "JSON_Update_Desc.formData.Description"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\t\"Name\": \"{{JSON_Join_Comm.formData.Name}}\",\n\t\"Description\": \"{{JSON_Join_Comm.formData.Description}}\"\n}",
+      "body": "{\n\t\"Name\": \"{{JSON_Create_Comm.formData.Name}}\",\n\t\"Description\": \"{{JSON_Create_Comm.formData.Description}}\"\n}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
@@ -53,8 +53,8 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "JSON_Join_Comm.formData.Description",
-      "JSON_Join_Comm.formData.Name"
+      "JSON_Create_Comm.formData.Description",
+      "JSON_Create_Comm.formData.Name"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

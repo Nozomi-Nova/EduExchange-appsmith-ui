@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 990,
+          "bottomRow": 950,
           "containerStyle": "none",
           "snapRows": 128,
           "parentRowSpace": 1,
@@ -28,35 +28,38 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Sharing Sessions_get_community_info",
-              "name": "get_community_info",
+              "id": "Sharing Sessions_exchange_focused",
+              "name": "exchange_focused",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [
-                "JSONForm1.formData"
-              ],
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Sharing Sessions_get_all_sessions",
+              "name": "get_all_sessions",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Sharing Sessions_get_resources",
+              "name": "get_resources",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ],
           [
             {
-              "id": "Sharing Sessions_create_session",
-              "name": "create_session",
+              "id": "Sharing Sessions_get_community_info",
+              "name": "get_community_info",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "JSONForm2.formData.offer_id",
-                "JSONForm2.formData.new_condition"
-              ],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Sharing Sessions_remove_session",
-              "name": "remove_session",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [
-                "JSONForm3.formData.offer_id"
+                "select_comm.selectedOptionValue"
               ],
               "timeoutInMillisecond": 10000
             }

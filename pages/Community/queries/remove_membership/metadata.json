@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/c/remove_membership"
+        "url": "web:4000/c/remove-member"
       },
       "invalids": [],
       "messages": [],
@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\t\"offer_id\": \"{{JSON_Leave_Community.formData.offer_id}}\"\n}",
+      "body": "{\n  \"community_id\": \"{{JSON_Join_Comm.formData.CommunityID.toString()}}\",\n  \"user_id\": \"{{appsmith.store.userID}}\"\n}",
       "bodyFormData": [],
       "httpMethod": "DELETE",
       "httpVersion": "HTTP11",
@@ -53,7 +53,8 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "JSON_Leave_Community.formData.offer_id"
+      "JSON_Join_Comm.formData.CommunityID.toString()",
+      "appsmith.store.userID"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

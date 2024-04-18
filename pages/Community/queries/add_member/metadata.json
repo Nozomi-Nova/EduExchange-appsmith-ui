@@ -7,7 +7,7 @@
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/c/add_member"
+        "url": "web:4000/c/add-member"
       },
       "invalids": [],
       "messages": [],
@@ -29,7 +29,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "{\n\t\"community_id\": \"{{JSON_Join_Comm.formData.community_id}}\",\n\t\"user_id\": \"{{JSON_Join_Comm.formData.user_id}}\"\n\t\"role\": \"{{JSON_Join_Comm.formData.role}}\"\n}",
+      "body": "{\n  \"community_id\": \"{{JSON_Join_Comm.formData.CommunityID.toString()}}\",\n  \"user_id\": \"{{appsmith.store.userID}}\",\n  \"role\": \"{{JSON_Join_Comm.formData.role}}\"\n}",
       "bodyFormData": [],
       "httpMethod": "POST",
       "httpVersion": "HTTP11",
@@ -53,9 +53,9 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
-      "JSON_Join_Comm.formData.community_id",
+      "JSON_Join_Comm.formData.CommunityID.toString()",
       "JSON_Join_Comm.formData.role",
-      "JSON_Join_Comm.formData.user_id"
+      "appsmith.store.userID"
     ],
     "userSetOnLoad": false,
     "confirmBeforeExecute": false,

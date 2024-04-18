@@ -1,4 +1,5 @@
 {
-	"offer_id": "{{JSONForm2.formData.offer_id}}",
-	"new_condition": "{{JSONForm2.formData.new_condition}}"
+	"community": "{{JSON_Create_Session.formData.community}}",
+	"schedule": "{{JSON_Create_Session.formData.schedule}}",
+	"resource": "{{JSON_Create_Session.formData.resource}}"
 }
