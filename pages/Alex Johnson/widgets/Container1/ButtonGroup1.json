@@ -10,8 +10,8 @@
         "click",
         "submit"
     ],
-    "topRow": 18,
-    "bottomRow": 22,
+    "topRow": 14,
+    "bottomRow": 18,
     "parentRowSpace": 10,
     "type": "BUTTON_GROUP_WIDGET",
     "groupButtons": {
@@ -28,6 +28,21 @@
             "buttonType": "SIMPLE",
             "buttonVariant": "filled",
             "id": "groupButtonthncjpizqu",
+            "isDisabled": false,
+            "placement": "CENTER"
+        },
+        "groupButtonyizgzwjrjn": {
+            "itemType": "BUTTON",
+            "onClick": "{{navigateTo('View_Transactions', {}, 'SAME_WINDOW');}}",
+            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "widgetId": "e4ziuzydra",
+            "menuItems": {},
+            "index": 4,
+            "label": "View My Transactions",
+            "isVisible": true,
+            "buttonType": "SIMPLE",
+            "buttonVariant": "filled",
+            "id": "groupButtonyizgzwjrjn",
             "isDisabled": false,
             "placement": "CENTER"
         },
@@ -91,19 +106,21 @@
         {"key": "groupButtons.groupButton1.onClick"},
         {"key": "groupButtons.groupButton2.onClick"},
         {"key": "groupButtons.groupButtonthncjpizqu.onClick"},
-        {"key": "groupButtons.groupButtontohk687444.onClick"}
+        {"key": "groupButtons.groupButtontohk687444.onClick"},
+        {"key": "groupButtons.groupButtonyizgzwjrjn.onClick"}
     ],
     "leftColumn": 6,
     "dynamicBindingPathList": [
         {"key": "groupButtons.groupButton1.buttonColor"},
         {"key": "groupButtons.groupButton2.buttonColor"},
         {"key": "groupButtons.groupButtonthncjpizqu.buttonColor"},
-        {"key": "groupButtons.groupButtontohk687444.buttonColor"}
+        {"key": "groupButtons.groupButtontohk687444.buttonColor"},
+        {"key": "groupButtons.groupButtonyizgzwjrjn.buttonColor"}
     ],
     "key": "hg4oeb3o6h",
     "orientation": "horizontal",
     "isDeprecated": false,
-    "rightColumn": 49,
+    "rightColumn": 55,
     "widgetId": "ath9oreznr",
     "minWidth": 450,
     "isVisible": true,
@@ -115,9 +132,9 @@
     "mobileTopRow": 40,
     "responsiveBehavior": "fill",
     "childStylesheet": {"button": {"buttonColor": "{{appsmith.theme.colors.primaryColor}}"}},
-    "originalTopRow": 18,
+    "originalTopRow": 14,
     "borderRadius": "1.5rem",
     "mobileLeftColumn": 29,
-    "originalBottomRow": 22,
+    "originalBottomRow": 18,
     "buttonVariant": "PRIMARY"
 }

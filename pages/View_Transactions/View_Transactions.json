@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Wishlist",
-    "slug": "wishlist",
+    "name": "View_Transactions",
+    "slug": "view-transactions",
     "layouts": [
       {
         "viewMode": false,
@@ -13,14 +13,14 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 470,
+          "bottomRow": 1070,
           "containerStyle": "none",
-          "snapRows": 46,
+          "snapRows": 128,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 480,
+          "minHeight": 1300,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -28,8 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Wishlist_get_all_wishlists",
-              "name": "get_all_wishlists",
+              "id": "View_Transactions_View_transactions",
+              "name": "View_transactions",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
@@ -41,7 +41,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Wishlist",
+        "id": "View_Transactions",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -52,5 +52,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "661ee0bada96307147a2c148_661f20d332db44725745c853"
+  "gitSyncId": "661c58a3acf7092883cdc7ce_66216140e01aa848979f6688"
 }

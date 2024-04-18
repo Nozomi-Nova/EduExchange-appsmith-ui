@@ -6,7 +6,7 @@
     "topRow": 46,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
-    "leftColumn": 33,
+    "leftColumn": 39,
     "dynamicBindingPathList": [
         {"key": "submitButtonStyles.buttonColor"},
         {"key": "submitButtonStyles.borderRadius"},
@@ -268,7 +268,7 @@
     "key": "6a7ew4ba4s",
     "backgroundColor": "#fff",
     "isDeprecated": false,
-    "rightColumn": 58,
+    "rightColumn": 64,
     "widgetId": "5do456y82t",
     "minWidth": 450,
     "parentId": "6xkd4our6a",

@@ -1,6 +1,10 @@
 {
   "pages": [
     {
+      "id": "View_Transactions",
+      "isDefault": false
+    },
+    {
       "id": "Post_Exchange",
       "isDefault": false
     },
