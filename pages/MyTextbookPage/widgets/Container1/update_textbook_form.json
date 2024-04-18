@@ -6,7 +6,7 @@
     "topRow": 40,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
-    "leftColumn": 44,
+    "leftColumn": 45,
     "dynamicBindingPathList": [
         {"key": "boxShadow"},
         {"key": "submitButtonStyles.buttonColor"},
@@ -125,7 +125,7 @@
         }
     },
     "disabledWhenInvalid": true,
-    "borderRadius": "0.375rem",
+    "borderRadius": "1.5rem",
     "originalBottomRow": 89,
     "useSourceData": false,
     "schema": {"__root_schema__": {
