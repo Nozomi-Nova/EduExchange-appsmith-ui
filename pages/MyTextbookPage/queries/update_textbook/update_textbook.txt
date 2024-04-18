@@ -1,0 +1,5 @@
+{
+	"isbn" : {{update_textbook_form.formData.ISBN}},
+	"author": {{update_textbook_form.formData.Author}},
+	"title": {{update_textbook_form.formData.Title}}
+}

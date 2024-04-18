@@ -3,8 +3,8 @@
     "needsErrorInfo": false,
     "boxShadow": "none",
     "mobileBottomRow": 6,
-    "widgetName": "Button2",
-    "onClick": "{{navigateTo('Taylor Kim', {}, 'SAME_WINDOW');}}",
+    "widgetName": "Button2Copy",
+    "onClick": "{{navigateTo('Homepage', {}, 'SAME_WINDOW');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
@@ -21,7 +21,7 @@
     "animateLoading": true,
     "parentColumnSpace": 17.9375,
     "dynamicTriggerPathList": [{"key": "onClick"}],
-    "leftColumn": 60,
+    "leftColumn": 59,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
         {"key": "borderRadius"}
@@ -32,7 +32,8 @@
     "isDeprecated": false,
     "rightColumn": 64,
     "isDefaultClickDisabled": true,
-    "widgetId": "oi61a5m9iu",
+    "iconName": "home",
+    "widgetId": "0d5mf3vsqg",
     "minWidth": 120,
     "isVisible": true,
     "recaptchaType": "V3",
@@ -47,5 +48,6 @@
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 49,
     "buttonVariant": "PRIMARY",
+    "iconAlign": "left",
     "placement": "CENTER"
 }

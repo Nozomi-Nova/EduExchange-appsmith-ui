@@ -22,7 +22,7 @@
         {"key": "primaryColumns.Title.cellBackground"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 1,
+    "leftColumn": 0,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "flexVerticalAlignment": "start",
@@ -225,7 +225,7 @@
     "key": "mcpfk7n6u6",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 41,
+    "rightColumn": 39,
     "textSize": "0.875rem",
     "widgetId": "e90uz7u985",
     "minWidth": 450,
