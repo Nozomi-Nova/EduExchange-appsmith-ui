@@ -4,6 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 117,
     "widgetName": "Button1",
+    "onClick": "{{DeleteAllUserEvents.run().then(() => {\n  showAlert('haha the sea turtles can die, I guess...', '');\n}).catch(() => {\n  showAlert('unable to delete user events!', '');\n});}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
@@ -19,6 +20,7 @@
     "mobileRightColumn": 53,
     "animateLoading": true,
     "parentColumnSpace": 19.8125,
+    "dynamicTriggerPathList": [{"key": "onClick"}],
     "leftColumn": 32,
     "dynamicBindingPathList": [
         {"key": "buttonColor"},
