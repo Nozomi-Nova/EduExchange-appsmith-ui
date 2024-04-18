@@ -188,7 +188,7 @@
                 "iconAlign": "left",
                 "position": 2,
                 "isDisabled": false,
-                "sourceData": 2,
+                "sourceData": 1,
                 "fieldType": "Number Input"
             },
             "customField1": {
