@@ -26,9 +26,7 @@
     "parentColumnSpace": 16.404296875,
     "dynamicTriggerPathList": [
         {"key": "menuItems.menuItem1.onClick"},
-        {"key": "menuItems.menuItem2.onClick"},
-        {"key": "menuItems.menuItem3.onClick"},
-        {"key": "menuItems.menuItemkqs0geyw0s.onClick"}
+        {"key": "menuItems.menuItem3.onClick"}
     ],
     "leftColumn": 22,
     "dynamicBindingPathList": [
@@ -38,7 +36,7 @@
         {"key": "menuItems.menuItem3.iconColor"}
     ],
     "isDisabled": false,
-    "sourceData": "[]",
+    "sourceData": [],
     "key": "bhphpl5p25",
     "isDeprecated": false,
     "rightColumn": 42,
@@ -69,7 +67,6 @@
             "isDisabled": false
         },
         "menuItem2": {
-            "onClick": "{{navigateTo('Jordan Lee', {}, 'SAME_WINDOW');\nstoreValue('userID', '2');\nstoreValue('name', 'Jordan Lee');}}",
             "iconName": "person",
             "widgetId": "",
             "iconColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -78,19 +75,6 @@
             "id": "menuItem2",
             "isVisible": true,
             "isDisabled": false
-        },
-        "menuItemkqs0geyw0s": {
-            "backgroundColor": "#ffffff",
-            "onClick": "{{navigateTo('Morgan Rivera', {}, 'SAME_WINDOW');\nstoreValue('userID', '4');\nstoreValue('name', 'Morgan Riviera');}}",
-            "iconName": "person",
-            "widgetId": "nsnoh9xenc",
-            "iconColor": "{{appsmith.theme.colors.primaryColor}}",
-            "index": 3,
-            "id": "menuItemkqs0geyw0s",
-            "label": "Morgan Riviera ",
-            "isDisabled": false,
-            "isVisible": true,
-            "textColor": "#18181b"
         }
     },
     "isVisible": true,

@@ -20,7 +20,7 @@
         {"key": "primaryColumns.OfferID.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 2,
+    "leftColumn": 0,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -58,8 +58,8 @@
         }
     },
     "borderRadius": "1.5rem",
-    "columnUpdatedAt": 1713176862384,
-    "originalBottomRow": 55,
+    "columnUpdatedAt": 1713469950595,
+    "originalBottomRow": 65,
     "defaultSelectedRowIndices": [0],
     "mobileBottomRow": 45,
     "widgetName": "tbl_exchangeinfo",
@@ -75,7 +75,7 @@
     ],
     "dynamicPropertyPathList": [{"key": "tableData"}],
     "displayName": "Table",
-    "bottomRow": 55,
+    "bottomRow": 65,
     "columnWidthMap": {
         "image": 85,
         "gender": 115,

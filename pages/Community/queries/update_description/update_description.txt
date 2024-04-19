@@ -1,4 +1,0 @@
-{
-    "community_id": {{JSON_Update_Desc.formData.CommunityID}},
-    "new_description": {{JSON_Update_Desc.formData.Description}}
-}

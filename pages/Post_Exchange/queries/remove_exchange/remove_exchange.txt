@@ -1,3 +1,0 @@
-{
-	"offer_id": "{{JSONForm3.formData.offer_id}}"
-}
