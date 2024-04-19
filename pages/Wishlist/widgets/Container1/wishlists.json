@@ -69,7 +69,7 @@
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
     "mobileBottomRow": 45,
-    "widgetName": "Table1",
+    "widgetName": "wishlists",
     "defaultPageSize": 0,
     "columnOrder": [
         "wishlist_id",
@@ -96,7 +96,7 @@
     "borderWidth": "1",
     "primaryColumns": {
         "name": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"name\"]))}}",
+            "computedValue": "{{wishlists.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"name\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "name",
@@ -130,7 +130,7 @@
             "verticalAlignment": "CENTER"
         },
         "wishlist_id": {
-            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"wishlist_id\"]))}}",
+            "computedValue": "{{wishlists.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"wishlist_id\"]))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "wishlist_id",
@@ -164,10 +164,10 @@
             "verticalAlignment": "CENTER"
         },
         "customColumn1": {
-            "boxShadow": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
+            "boxShadow": "{{wishlists.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
             "computedValue": "",
             "onClick": "{{delete_this_wishlist.run().then(() => {\n  showAlert('Wishlist deleted successfully!', '');\n}).catch(() => {\n  showAlert('Unable to delete wishlist, please refresh!', '');\n});}}",
-            "buttonColor": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
+            "buttonColor": "{{wishlists.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "delete",
@@ -192,7 +192,7 @@
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
             "isCellEditable": false,
-            "borderRadius": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+            "borderRadius": "{{wishlists.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
             "decimals": 0,
             "width": 150,
             "enableFilter": true,
@@ -203,10 +203,10 @@
             "verticalAlignment": "CENTER"
         },
         "customColumn2": {
-            "boxShadow": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
+            "boxShadow": "{{wishlists.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
             "computedValue": "",
             "onClick": "{{showModal('Modal1');}}",
-            "buttonColor": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
+            "buttonColor": "{{wishlists.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
             "isEditable": false,
             "notation": "standard",
             "alias": "edit",
@@ -231,7 +231,7 @@
             "thousandSeparator": true,
             "horizontalAlignment": "LEFT",
             "isCellEditable": false,
-            "borderRadius": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
+            "borderRadius": "{{wishlists.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.borderRadius.appBorderRadius)))}}",
             "decimals": 0,
             "width": 150,
             "enableFilter": true,
@@ -242,7 +242,7 @@
             "verticalAlignment": "CENTER"
         }
     },
-    "onRowSelected": "{{navigateTo('WishlistItems', {}, 'SAME_WINDOW').then(() => {\n  storeValue('wishlist_id', storeValue('wishlist_id', Table1.selectedRow.wishlist_id));\n});}}",
+    "onRowSelected": "{{navigateTo('WishlistItems', {}, 'SAME_WINDOW').then(() => {\n  storeValue('wishlist_id', wishlists.selectedRow.wishlist_id);\n});}}",
     "key": "h498k2hdw3",
     "canFreezeColumn": true,
     "isDeprecated": false,
