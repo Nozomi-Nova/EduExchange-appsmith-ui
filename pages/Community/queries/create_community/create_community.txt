@@ -1,0 +1,4 @@
+{
+	"Name": "{{JSON_Create_Comm.formData.Name}}",
+	"Description": "{{JSON_Create_Comm.formData.Description}}"
+}

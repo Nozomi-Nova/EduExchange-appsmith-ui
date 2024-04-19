@@ -1,0 +1,4 @@
+{
+  "community_id": "{{JSON_Join_Comm.formData.CommunityID.toString()}}",
+  "user_id": "{{appsmith.store.userID}}"
+}

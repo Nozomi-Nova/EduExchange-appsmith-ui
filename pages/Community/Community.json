@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Wishlist",
-    "slug": "wishlist",
+    "name": "Community",
+    "slug": "community",
     "layouts": [
       {
         "viewMode": false,
@@ -13,14 +13,14 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 480,
+          "bottomRow": 1030,
           "containerStyle": "none",
-          "snapRows": 46,
+          "snapRows": 128,
           "parentRowSpace": 1,
           "type": "CANVAS_WIDGET",
           "canExtend": true,
           "version": 89,
-          "minHeight": 480,
+          "minHeight": 1300,
           "parentColumnSpace": 1,
           "dynamicBindingPathList": [],
           "leftColumn": 0
@@ -28,8 +28,16 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Wishlist_get_all_wishlists",
-              "name": "get_all_wishlists",
+              "id": "Community_exchange_focused",
+              "name": "exchange_focused",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "Community_user_membership",
+              "name": "user_membership",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
@@ -41,7 +49,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Wishlist",
+        "id": "Community",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -52,5 +60,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "661ee0bada96307147a2c148_661f20d332db44725745c853"
+  "gitSyncId": "661fd10fb5273838f84b4eae_661fd86bb5273838f84b4f0f"
 }

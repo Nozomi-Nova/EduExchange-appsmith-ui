@@ -9,6 +9,8 @@
     "searchTags": ["percent"],
     "topRow": 9,
     "bottomRow": 13,
+    "topRow": 16,
+    "bottomRow": 20,
     "parentRowSpace": 10,
     "type": "PROGRESS_WIDGET",
     "isIndeterminate": false,

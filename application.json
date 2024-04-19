@@ -21,11 +21,19 @@
       "isDefault": false
     },
     {
-      "id": "Wishlist",
+      "id": "Jordan Lee",
       "isDefault": false
     },
     {
       "id": "WishlistItems",
+      "isDefault": false
+    },
+    {
+      "id": "Community",
+      "isDefault": false
+    },
+    {
+      "id": "Sharing Sessions",
       "isDefault": false
     },
     {

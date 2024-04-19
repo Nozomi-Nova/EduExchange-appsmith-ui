@@ -2,8 +2,13 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
     "isVisibleDownload": true,
+<<<<<<<< HEAD:pages/Community/widgets/Container1/Table1.json
+    "iconSVG": "/static/media/icon.c4395b694ca4b5a84741345b057b6866.svg",
+    "topRow": 11,
+========
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.e6911f8bb94dc6c4a102a74740c41763.svg",
     "topRow": 5,
+>>>>>>>> lets-try-to-merge:pages/Exchange Transactions/widgets/Container1/tbl_userInfo.json
     "isSortable": true,
     "type": "TABLE_WIDGET_V2",
     "inlineEditingSaveOption": "ROW_LEVEL",
@@ -13,12 +18,21 @@
         {"key": "borderRadius"},
         {"key": "boxShadow"},
         {"key": "tableData"},
+<<<<<<<< HEAD:pages/Community/widgets/Container1/Table1.json
+        {"key": "primaryColumns.CommunityID.computedValue"},
+        {"key": "primaryColumns.Description.computedValue"},
+        {"key": "primaryColumns.Name.computedValue"}
+    ],
+    "needsHeightForContent": true,
+    "leftColumn": 31,
+========
         {"key": "primaryColumns.Price.computedValue"},
         {"key": "primaryColumns.Requester.computedValue"},
         {"key": "primaryColumns.Status.computedValue"}
     ],
     "needsHeightForContent": true,
     "leftColumn": 3,
+>>>>>>>> lets-try-to-merge:pages/Exchange Transactions/widgets/Container1/tbl_userInfo.json
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "accentColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -56,6 +70,39 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+<<<<<<<< HEAD:pages/Community/widgets/Container1/Table1.json
+    "columnUpdatedAt": 1713392961700,
+    "originalBottomRow": 43,
+    "defaultSelectedRowIndices": [0],
+    "needsErrorInfo": false,
+    "mobileBottomRow": 36,
+    "widgetName": "Table1",
+    "defaultPageSize": 0,
+    "columnOrder": [
+        "CommunityID",
+        "Description",
+        "Name"
+    ],
+    "dynamicPropertyPathList": [{"key": "tableData"}],
+    "displayName": "Table",
+    "bottomRow": 41,
+    "columnWidthMap": {},
+    "parentRowSpace": 10,
+    "hideCard": false,
+    "mobileRightColumn": 64,
+    "parentColumnSpace": 16.50390625,
+    "dynamicTriggerPathList": [],
+    "borderWidth": "1",
+    "primaryColumns": {
+        "Description": {
+            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Description\"]))}}",
+            "isEditable": false,
+            "notation": "standard",
+            "alias": "Description",
+            "enableSort": true,
+            "isSaveVisible": true,
+            "id": "Description",
+========
     "columnUpdatedAt": 1713464353233,
     "originalBottomRow": 64,
     "defaultSelectedRowIndices": [0],
@@ -125,6 +172,7 @@
             "enableSort": true,
             "isSaveVisible": true,
             "id": "Requester",
+>>>>>>>> lets-try-to-merge:pages/Exchange Transactions/widgets/Container1/tbl_userInfo.json
             "isDisabled": false,
             "allowSameOptionsInNewRow": true,
             "validation": {},
@@ -135,7 +183,8 @@
             "index": 1,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "Requester",
+<<<<<<<< HEAD:pages/Community/widgets/Container1/Table1.json
+            "label": "Description",
             "fontStyle": "",
             "textColor": "",
             "columnType": "text",
@@ -146,19 +195,19 @@
             "width": 150,
             "enableFilter": true,
             "sticky": "",
-            "originalId": "Requester",
+            "originalId": "Description",
             "currencyCode": "USD",
             "cellBackground": "",
             "verticalAlignment": "CENTER"
         },
-        "Price": {
-            "computedValue": "{{tbl_userInfo.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Price\"]))}}",
+        "CommunityID": {
+            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"CommunityID\"]))}}",
             "isEditable": false,
             "notation": "standard",
-            "alias": "Price",
+            "alias": "CommunityID",
             "enableSort": true,
             "isSaveVisible": true,
-            "id": "Price",
+            "id": "CommunityID",
             "isDisabled": false,
             "allowSameOptionsInNewRow": true,
             "validation": {},
@@ -169,7 +218,10 @@
             "index": 0,
             "isDiscardVisible": true,
             "isVisible": true,
-            "label": "Price",
+            "label": "CommunityID",
+========
+            "label": "Requester",
+>>>>>>>> lets-try-to-merge:pages/Exchange Transactions/widgets/Container1/tbl_userInfo.json
             "fontStyle": "",
             "textColor": "",
             "columnType": "text",
@@ -180,12 +232,86 @@
             "width": 150,
             "enableFilter": true,
             "sticky": "",
+<<<<<<<< HEAD:pages/Community/widgets/Container1/Table1.json
+            "originalId": "CommunityID",
+========
+            "originalId": "Requester",
+>>>>>>>> lets-try-to-merge:pages/Exchange Transactions/widgets/Container1/tbl_userInfo.json
+            "currencyCode": "USD",
+            "cellBackground": "",
+            "verticalAlignment": "CENTER"
+        },
+<<<<<<<< HEAD:pages/Community/widgets/Container1/Table1.json
+        "Name": {
+            "computedValue": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Name\"]))}}",
+            "isEditable": false,
+            "notation": "standard",
+            "alias": "Name",
+            "enableSort": true,
+            "isSaveVisible": true,
+            "id": "Name",
+========
+        "Price": {
+            "computedValue": "{{tbl_userInfo.processedTableData.map((currentRow, currentIndex) => ( currentRow[\"Price\"]))}}",
+            "isEditable": false,
+            "notation": "standard",
+            "alias": "Price",
+            "enableSort": true,
+            "isSaveVisible": true,
+            "id": "Price",
+>>>>>>>> lets-try-to-merge:pages/Exchange Transactions/widgets/Container1/tbl_userInfo.json
+            "isDisabled": false,
+            "allowSameOptionsInNewRow": true,
+            "validation": {},
+            "isCellVisible": true,
+            "isDerived": false,
+            "textSize": "0.875rem",
+            "allowCellWrapping": false,
+<<<<<<<< HEAD:pages/Community/widgets/Container1/Table1.json
+            "index": 2,
+            "isDiscardVisible": true,
+            "isVisible": true,
+            "label": "Name",
+========
+            "index": 0,
+            "isDiscardVisible": true,
+            "isVisible": true,
+            "label": "Price",
+>>>>>>>> lets-try-to-merge:pages/Exchange Transactions/widgets/Container1/tbl_userInfo.json
+            "fontStyle": "",
+            "textColor": "",
+            "columnType": "text",
+            "thousandSeparator": true,
+            "horizontalAlignment": "LEFT",
+            "isCellEditable": false,
+            "decimals": 0,
+            "width": 150,
+            "enableFilter": true,
+            "sticky": "",
+<<<<<<<< HEAD:pages/Community/widgets/Container1/Table1.json
+            "originalId": "Name",
+========
             "originalId": "Price",
+>>>>>>>> lets-try-to-merge:pages/Exchange Transactions/widgets/Container1/tbl_userInfo.json
             "currencyCode": "USD",
             "cellBackground": "",
             "verticalAlignment": "CENTER"
         }
     },
+<<<<<<<< HEAD:pages/Community/widgets/Container1/Table1.json
+    "key": "blyempkzea",
+    "canFreezeColumn": true,
+    "isDeprecated": false,
+    "rightColumn": 64,
+    "textSize": "0.875rem",
+    "thumbnailSVG": "/static/media/thumbnail.d0492f06681daa69baf92b07d3829dfc.svg",
+    "widgetId": "k7zhq1gmrh",
+    "minWidth": 450,
+    "tableData": "{{exchange_focused.data}}",
+    "label": "Data",
+    "searchKey": "",
+    "parentId": "qdkhm6zx8h",
+========
     "key": "1hz6z5p49i",
     "canFreezeColumn": true,
     "isDeprecated": false,
@@ -198,13 +324,19 @@
     "label": "Data",
     "searchKey": "",
     "parentId": "4fbi1m050v",
+>>>>>>>> lets-try-to-merge:pages/Exchange Transactions/widgets/Container1/tbl_userInfo.json
     "renderMode": "CANVAS",
-    "mobileTopRow": 17,
+    "mobileTopRow": 8,
     "horizontalAlignment": "LEFT",
     "isVisibleSearch": true,
     "responsiveBehavior": "fill",
+<<<<<<<< HEAD:pages/Community/widgets/Container1/Table1.json
+    "originalTopRow": 13,
+    "mobileLeftColumn": 30,
+========
     "originalTopRow": 6,
     "mobileLeftColumn": 1,
+>>>>>>>> lets-try-to-merge:pages/Exchange Transactions/widgets/Container1/tbl_userInfo.json
     "isVisiblePagination": true,
     "verticalAlignment": "CENTER"
 }
