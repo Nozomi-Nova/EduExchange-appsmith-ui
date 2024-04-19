@@ -29,3 +29,6 @@ Upon accessing the UI with the provided link, you will be directed to the homepa
 - For any issues or inquiries related to the UI, please refer to the README in the main project repository or contact the team members listed there.
 
 Thank you for using EduShare Hub!
+
+## Demo
+- Demo located at following URL (sorry in advance for the poor quality): [https://youtu.be/_TPQKjX5T2U](https://youtu.be/_TPQKjX5T2U)
