@@ -31,6 +31,21 @@
             "isDisabled": false,
             "placement": "CENTER"
         },
+        "groupButtonai2wrr7yuq": {
+            "itemType": "BUTTON",
+            "onClick": "{{navigateTo('Exchange Transactions', {}, 'SAME_WINDOW');}}",
+            "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "widgetId": "xpyisyvpi4",
+            "menuItems": {},
+            "index": 4,
+            "label": "My Transactions",
+            "isVisible": true,
+            "buttonType": "SIMPLE",
+            "buttonVariant": "filled",
+            "id": "groupButtonai2wrr7yuq",
+            "isDisabled": false,
+            "placement": "CENTER"
+        },
         "groupButtontohk687444": {
             "itemType": "BUTTON",
             "onClick": "{{navigateTo('Wishlist', {}, 'SAME_WINDOW');}}",
@@ -76,7 +91,7 @@
             "widgetId": "",
             "menuItems": {},
             "index": 1,
-            "label": "MyTextooks",
+            "label": "My Textbooks",
             "id": "groupButton2",
             "placement": "CENTER",
             "isVisible": true,
@@ -91,19 +106,21 @@
         {"key": "groupButtons.groupButton1.onClick"},
         {"key": "groupButtons.groupButton2.onClick"},
         {"key": "groupButtons.groupButtonthncjpizqu.onClick"},
-        {"key": "groupButtons.groupButtontohk687444.onClick"}
+        {"key": "groupButtons.groupButtontohk687444.onClick"},
+        {"key": "groupButtons.groupButtonai2wrr7yuq.onClick"}
     ],
     "leftColumn": 6,
     "dynamicBindingPathList": [
         {"key": "groupButtons.groupButton1.buttonColor"},
         {"key": "groupButtons.groupButton2.buttonColor"},
         {"key": "groupButtons.groupButtonthncjpizqu.buttonColor"},
-        {"key": "groupButtons.groupButtontohk687444.buttonColor"}
+        {"key": "groupButtons.groupButtontohk687444.buttonColor"},
+        {"key": "groupButtons.groupButtonai2wrr7yuq.buttonColor"}
     ],
     "key": "hg4oeb3o6h",
     "orientation": "horizontal",
     "isDeprecated": false,
-    "rightColumn": 49,
+    "rightColumn": 61,
     "widgetId": "ath9oreznr",
     "minWidth": 450,
     "isVisible": true,

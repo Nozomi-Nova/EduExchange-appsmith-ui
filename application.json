@@ -21,7 +21,7 @@
       "isDefault": false
     },
     {
-      "id": "Jordan Lee",
+      "id": "Wishlist",
       "isDefault": false
     },
     {
@@ -29,11 +29,19 @@
       "isDefault": false
     },
     {
-      "id": "Community",
+      "id": "Taylor Kim",
       "isDefault": false
     },
     {
-      "id": "Sharing Sessions",
+      "id": "All Recycling Events",
+      "isDefault": false
+    },
+    {
+      "id": "Digital Resources",
+      "isDefault": false
+    },
+    {
+      "id": "Exchange Transactions",
       "isDefault": false
     }
   ],

@@ -16,8 +16,8 @@
     },
     "displayName": "Menu button",
     "iconSVG": "/static/media/icon.631848e88e7a3db05f6015f22835e81b.svg",
-    "topRow": 32,
-    "bottomRow": 41,
+    "topRow": 26,
+    "bottomRow": 32,
     "parentRowSpace": 10,
     "type": "MENU_BUTTON_WIDGET",
     "hideCard": false,
@@ -26,20 +26,17 @@
     "parentColumnSpace": 16.404296875,
     "dynamicTriggerPathList": [
         {"key": "menuItems.menuItem1.onClick"},
-        {"key": "menuItems.menuItem2.onClick"},
-        {"key": "menuItems.menuItem3.onClick"},
-        {"key": "menuItems.menuItemkqs0geyw0s.onClick"}
+        {"key": "menuItems.menuItem3.onClick"}
     ],
     "leftColumn": 22,
     "dynamicBindingPathList": [
         {"key": "menuColor"},
         {"key": "menuItems.menuItem1.iconColor"},
         {"key": "menuItems.menuItem2.iconColor"},
-        {"key": "menuItems.menuItem3.iconColor"},
-        {"key": "menuItems.menuItemkqs0geyw0s.iconColor"}
+        {"key": "menuItems.menuItem3.iconColor"}
     ],
     "isDisabled": false,
-    "sourceData": "[]",
+    "sourceData": [],
     "key": "bhphpl5p25",
     "isDeprecated": false,
     "rightColumn": 42,
@@ -59,7 +56,7 @@
             "isDisabled": false
         },
         "menuItem3": {
-            "onClick": "{{navigateTo('Taylor Kim', {}, 'SAME_WINDOW');\nstoreValue('userID', '3');\nstoreValue('name', 'Taylor Kim');}}",
+            "onClick": "{{navigateTo('Taylor Kim', {}, 'SAME_WINDOW').then(() => {\n  storeValue('name', 'Taylor Kim');\n  storeValue('userID', '3');\n});}}",
             "iconName": "person",
             "widgetId": "",
             "iconColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -70,7 +67,6 @@
             "isDisabled": false
         },
         "menuItem2": {
-            "onClick": "{{navigateTo('Jordan Lee', {}, 'SAME_WINDOW');\nstoreValue('userID', '2');\nstoreValue('name', 'Jordan Lee');}}",
             "iconName": "person",
             "widgetId": "",
             "iconColor": "{{appsmith.theme.colors.primaryColor}}",
@@ -79,19 +75,6 @@
             "id": "menuItem2",
             "isVisible": true,
             "isDisabled": false
-        },
-        "menuItemkqs0geyw0s": {
-            "backgroundColor": "#ffffff",
-            "onClick": "{{navigateTo('Morgan Rivera', {}, 'SAME_WINDOW');\nstoreValue('userID', '4');\nstoreValue('name', 'Morgan Riviera');}}",
-            "iconName": "person",
-            "widgetId": "nsnoh9xenc",
-            "iconColor": "{{appsmith.theme.colors.primaryColor}}",
-            "index": 3,
-            "id": "menuItemkqs0geyw0s",
-            "label": "Morgan Riviera ",
-            "isDisabled": false,
-            "isVisible": true,
-            "textColor": "#18181b"
         }
     },
     "isVisible": true,
@@ -102,12 +85,12 @@
     "renderMode": "CANVAS",
     "isLoading": false,
     "mobileTopRow": 9,
-    "originalTopRow": 32,
+    "originalTopRow": 26,
     "borderRadius": "1.5rem",
     "mobileLeftColumn": 7,
     "menuItemsSource": "STATIC",
     "menuColor": "{{appsmith.theme.colors.primaryColor}}",
-    "originalBottomRow": 41,
+    "originalBottomRow": 32,
     "iconAlign": "left",
     "placement": "CENTER"
 }
