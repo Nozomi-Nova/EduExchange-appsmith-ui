@@ -155,7 +155,7 @@
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(Add_Items_To_Wishlist.sourceData, Add_Items_To_Wishlist.formData, Add_Items_To_Wishlist.fieldState)}}",
                 "dataType": "number",
                 "accessor": "TextbookID",
-                "isVisible": false,
+                "isVisible": true,
                 "label": "Textbook ID",
                 "originalIdentifier": "TextbookID",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(Add_Items_To_Wishlist.sourceData, Add_Items_To_Wishlist.formData, Add_Items_To_Wishlist.fieldState)}}",
@@ -163,8 +163,8 @@
                 "isSpellCheck": false,
                 "iconAlign": "left",
                 "position": 2,
-                "isDisabled": false,
-                "sourceData": 5,
+                "isDisabled": true,
+                "sourceData": 3,
                 "fieldType": "Number Input"
             },
             "ISBN": {
@@ -256,7 +256,7 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 42,
+    "bottomRow": 50,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Add to Wishlist",
