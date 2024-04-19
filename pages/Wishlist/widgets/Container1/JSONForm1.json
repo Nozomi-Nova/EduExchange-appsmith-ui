@@ -171,7 +171,7 @@
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
                 "dataType": "number",
                 "accessor": "wishlist_id",
-                "isVisible": true,
+                "isVisible": false,
                 "label": "Wishlist Id",
                 "originalIdentifier": "wishlist_id",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
@@ -179,8 +179,8 @@
                 "isSpellCheck": false,
                 "iconAlign": "left",
                 "position": 1,
-                "isDisabled": false,
-                "sourceData": 1,
+                "isDisabled": true,
+                "sourceData": 31,
                 "fieldType": "Number Input"
             }
         },
@@ -204,7 +204,7 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 42,
+    "bottomRow": 35,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Create a new wishlist",
