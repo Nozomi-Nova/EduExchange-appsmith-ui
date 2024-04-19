@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 6,
     "widgetName": "Button1",
-    "onClick": "{{navigateTo('Community', {}, 'SAME_WINDOW');}}",
+    "onClick": "{{navigateTo('Jordan Lee', {}, 'SAME_WINDOW');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.cb7371e9a48acf9db0f2f3ea0a714255.svg",

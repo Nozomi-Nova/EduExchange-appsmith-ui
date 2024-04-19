@@ -37,7 +37,8 @@
         {"key": "schema.__root_schema__.children.OfferID.borderRadius"},
         {"key": "schema.__root_schema__.children.customField1.borderRadius"},
         {"key": "schema.__root_schema__.children.customField1.accentColor"},
-        {"key": "sourceData"}
+        {"key": "sourceData"},
+        {"key": "schema.__root_schema__.children.customField1.defaultValue"}
     ],
     "showReset": true,
     "flexVerticalAlignment": "start",
@@ -249,6 +250,7 @@
                 "isRequired": false,
                 "isCustomField": true,
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSON_remove.sourceData, JSON_remove.formData, JSON_remove.fieldState)}}",
+                "defaultValue": "{{((sourceData, formData, fieldState) => (tbl_all_sessions.selectedRow.SessionID))(JSON_remove.sourceData, JSON_remove.formData, JSON_remove.fieldState)}}",
                 "dataType": "string",
                 "accessor": "session_id",
                 "isVisible": true,
@@ -363,7 +365,7 @@
     "parentColumnSpace": 19.8125,
     "dynamicTriggerPathList": [{"key": "onSubmit"}],
     "borderWidth": "1",
-    "sourceData": "{{get_all_sessions.data}}",
+    "sourceData": "{{tbl_all_sessions}}",
     "resetButtonLabel": "Reset",
     "key": "sqvy53ivms",
     "backgroundColor": "#fff",

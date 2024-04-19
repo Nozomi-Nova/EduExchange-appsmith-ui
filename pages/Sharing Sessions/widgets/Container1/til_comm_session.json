@@ -17,7 +17,7 @@
         {"key": "primaryColumns.SessionID.computedValue"}
     ],
     "needsHeightForContent": true,
-    "leftColumn": 29,
+    "leftColumn": 33,
     "delimiter": ",",
     "defaultSelectedRowIndex": 0,
     "showInlineEditingOptionDropdown": true,
@@ -225,7 +225,7 @@
     "key": "1hz6z5p49i",
     "canFreezeColumn": true,
     "isDeprecated": false,
-    "rightColumn": 63,
+    "rightColumn": 64,
     "textSize": "0.875rem",
     "widgetId": "oj4agc8yf4",
     "enableServerSideFiltering": false,

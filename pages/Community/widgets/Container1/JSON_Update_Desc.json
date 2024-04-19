@@ -123,7 +123,7 @@
     },
     "disabledWhenInvalid": false,
     "borderRadius": "1.5rem",
-    "originalBottomRow": 79,
+    "originalBottomRow": 76,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -181,7 +181,7 @@
                 "iconAlign": "left",
                 "position": 2,
                 "isDisabled": false,
-                "sourceData": 3,
+                "sourceData": 4,
                 "fieldType": "Number Input"
             },
             "Name": {

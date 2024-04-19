@@ -205,7 +205,7 @@
                 "iconAlign": "left",
                 "position": 0,
                 "isDisabled": false,
-                "sourceData": 3,
+                "sourceData": 4,
                 "fieldType": "Number Input"
             },
             "Name": {

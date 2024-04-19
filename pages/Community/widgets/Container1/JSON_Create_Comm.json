@@ -123,7 +123,7 @@
     },
     "disabledWhenInvalid": false,
     "borderRadius": "1.5rem",
-    "originalBottomRow": 77,
+    "originalBottomRow": 81,
     "useSourceData": false,
     "schema": {"__root_schema__": {
         "labelTextSize": "0.875rem",
@@ -172,7 +172,7 @@
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSON_Create_Comm.sourceData, JSON_Create_Comm.formData, JSON_Create_Comm.fieldState)}}",
                 "dataType": "number",
                 "accessor": "CommunityID",
-                "isVisible": false,
+                "isVisible": true,
                 "label": "Community ID",
                 "originalIdentifier": "CommunityID",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSON_Create_Comm.sourceData, JSON_Create_Comm.formData, JSON_Create_Comm.fieldState)}}",
@@ -181,7 +181,7 @@
                 "iconAlign": "left",
                 "position": 0,
                 "isDisabled": false,
-                "sourceData": 3,
+                "sourceData": 4,
                 "fieldType": "Number Input"
             },
             "Name": {
@@ -231,7 +231,7 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 77,
+    "bottomRow": 84,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Create Community",
@@ -254,7 +254,7 @@
     "scrollContents": true,
     "responsiveBehavior": "fill",
     "fixedFooter": true,
-    "originalTopRow": 43,
+    "originalTopRow": 40,
     "mobileLeftColumn": 3,
     "maxDynamicHeight": 9000,
     "minDynamicHeight": 4

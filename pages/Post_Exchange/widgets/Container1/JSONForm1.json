@@ -171,7 +171,7 @@
                 "iconAlign": "left",
                 "position": 6,
                 "isDisabled": false,
-                "sourceData": 4,
+                "sourceData": 3,
                 "fieldType": "Number Input"
             },
             "ConditionState": {
@@ -207,7 +207,7 @@
                 "accentColor": "{{((sourceData, formData, fieldState) => ((appsmith.theme.colors.primaryColor)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
                 "dataType": "number",
                 "accessor": "TextbookID",
-                "isVisible": false,
+                "isVisible": true,
                 "label": "Textbook ID",
                 "originalIdentifier": "TextbookID",
                 "borderRadius": "{{((sourceData, formData, fieldState) => ((appsmith.theme.borderRadius.appBorderRadius)))(JSONForm1.sourceData, JSONForm1.formData, JSONForm1.fieldState)}}",
@@ -332,7 +332,7 @@
     },
     "dynamicPropertyPathList": [],
     "displayName": "JSON Form",
-    "bottomRow": 119,
+    "bottomRow": 126,
     "fieldLimitExceeded": false,
     "parentRowSpace": 10,
     "title": "Post Exchange Form",

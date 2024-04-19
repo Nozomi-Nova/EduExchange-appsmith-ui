@@ -9,8 +9,8 @@
         "paragraph",
         "label"
     ],
-    "topRow": 49,
-    "bottomRow": 53,
+    "topRow": 52,
+    "bottomRow": 56,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -20,7 +20,7 @@
     "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
     "parentColumnSpace": 17.9375,
     "dynamicTriggerPathList": [],
-    "leftColumn": 2,
+    "leftColumn": 32,
     "dynamicBindingPathList": [
         {"key": "truncateButtonColor"},
         {"key": "fontFamily"},
@@ -31,7 +31,7 @@
     "text": "All Digital Resources",
     "key": "xk8vvbl9at",
     "isDeprecated": false,
-    "rightColumn": 19,
+    "rightColumn": 48,
     "thumbnailSVG": "/static/media/thumbnail.0c129b82c9b3e4cd4920563b289659ab.svg",
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",

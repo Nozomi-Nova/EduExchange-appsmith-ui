@@ -27,7 +27,7 @@
     ],
     "shouldTruncate": false,
     "truncateButtonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "text": "Membership",
+    "text": "Your Memberships",
     "key": "ph5glqkph7",
     "isDeprecated": false,
     "rightColumn": 54,
