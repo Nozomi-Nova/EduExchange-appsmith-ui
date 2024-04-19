@@ -35,6 +35,7 @@
             "itemType": "BUTTON",
             "onClick": "{{navigateTo('Exchange Transactions', {}, 'SAME_WINDOW');}}",
             "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
+            "iconName": "exchange",
             "widgetId": "xpyisyvpi4",
             "menuItems": {},
             "index": 4,
