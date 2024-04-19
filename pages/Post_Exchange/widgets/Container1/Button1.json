@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 48,
     "widgetName": "Button1",
-    "onClick": "{{navigateTo('Taylor Kim', {}, 'SAME_WINDOW');}}",
+    "onClick": "{{navigateTo('Alex Johnson', {}, 'SAME_WINDOW');}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "displayName": "Button",
     "iconSVG": "/static/media/icon.05d209fafeb13a8569e3b4e97069d9ee.svg",
