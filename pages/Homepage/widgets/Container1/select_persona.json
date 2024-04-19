@@ -26,7 +26,8 @@
     "parentColumnSpace": 16.404296875,
     "dynamicTriggerPathList": [
         {"key": "menuItems.menuItem1.onClick"},
-        {"key": "menuItems.menuItem3.onClick"}
+        {"key": "menuItems.menuItem3.onClick"},
+        {"key": "menuItems.menuItem2.onClick"}
     ],
     "leftColumn": 22,
     "dynamicBindingPathList": [
@@ -67,6 +68,7 @@
             "isDisabled": false
         },
         "menuItem2": {
+            "onClick": "{{storeValue('userID', '2');\nstoreValue('name', 'Jordan Lee');\nnavigateTo('Jordan Lee', {}, 'SAME_WINDOW');}}",
             "iconName": "person",
             "widgetId": "",
             "iconColor": "{{appsmith.theme.colors.primaryColor}}",

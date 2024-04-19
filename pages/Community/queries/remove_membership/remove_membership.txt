@@ -1,0 +1,4 @@
+{
+	"community_id": {{JSON_Leave_Comm.formData.CommunityID}},
+	"user_id": "{{appsmith.store.userID}}"
+}

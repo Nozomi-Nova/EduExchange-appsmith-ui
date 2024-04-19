@@ -1,0 +1,5 @@
+{
+	"community": "{{JSON_Create_Session.formData.community}}",
+	"schedule": "{{JSON_Create_Session.formData.schedule}}",
+	"resource": "{{JSON_Create_Session.formData.resource}}"
+}
