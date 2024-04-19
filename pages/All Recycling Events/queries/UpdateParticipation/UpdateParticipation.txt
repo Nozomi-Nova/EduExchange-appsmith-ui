@@ -1,0 +1,4 @@
+{
+	"role": "{{JSONForm2.formData.role}}",
+	"event_id": "{{JSONForm2.formData.eventID}}"
+}

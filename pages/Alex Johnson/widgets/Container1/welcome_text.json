@@ -5,13 +5,13 @@
     "dynamicPropertyPathList": [],
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "displayName": "Text",
-    "topRow": 4,
+    "topRow": 6,
     "searchTags": [
         "typography",
         "paragraph",
         "label"
     ],
-    "bottomRow": 15,
+    "bottomRow": 17,
     "parentRowSpace": 10,
     "type": "TEXT_WIDGET",
     "hideCard": false,
@@ -33,7 +33,7 @@
     "text": "Hi {{appsmith.store.name}}! How can we help you today?",
     "key": "5z2okcfbms",
     "isDeprecated": false,
-    "rightColumn": 53,
+    "rightColumn": 46,
     "textAlign": "LEFT",
     "dynamicHeight": "AUTO_HEIGHT",
     "widgetId": "8scrp6x0p9",
@@ -51,11 +51,11 @@
     "renderMode": "CANVAS",
     "mobileTopRow": 6,
     "responsiveBehavior": "fill",
-    "originalTopRow": 4,
+    "originalTopRow": 6,
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
     "mobileLeftColumn": 6,
     "maxDynamicHeight": 9000,
-    "originalBottomRow": 15,
+    "originalBottomRow": 17,
     "fontSize": "1.875rem",
     "minDynamicHeight": 4
 }

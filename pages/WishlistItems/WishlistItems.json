@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 460,
+          "bottomRow": 1040,
           "containerStyle": "none",
           "snapRows": 46,
           "parentRowSpace": 1,
@@ -36,6 +36,14 @@
                 "appsmith.store.userID",
                 "appsmith.store.wishlist_id"
               ],
+              "timeoutInMillisecond": 10000
+            },
+            {
+              "id": "WishlistItems_get_all_textbooks",
+              "name": "get_all_textbooks",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
               "timeoutInMillisecond": 10000
             }
           ]

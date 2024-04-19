@@ -35,6 +35,22 @@
     {
       "id": "Sharing Sessions",
       "isDefault": false
+    },
+    {
+      "id": "Taylor Kim",
+      "isDefault": false
+    },
+    {
+      "id": "All Recycling Events",
+      "isDefault": false
+    },
+    {
+      "id": "Digital Resources",
+      "isDefault": false
+    },
+    {
+      "id": "Exchange Transactions",
+      "isDefault": false
     }
   ],
   "viewMode": false,
