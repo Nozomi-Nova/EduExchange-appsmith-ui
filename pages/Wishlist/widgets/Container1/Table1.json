@@ -64,7 +64,7 @@
         }
     },
     "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "columnUpdatedAt": 1713475884320,
+    "columnUpdatedAt": 1713482914490,
     "originalBottomRow": 36,
     "defaultSelectedRowIndices": [0],
     "needsErrorInfo": false,
@@ -90,7 +90,8 @@
     "parentColumnSpace": 17.9375,
     "dynamicTriggerPathList": [
         {"key": "onRowSelected"},
-        {"key": "primaryColumns.customColumn1.onClick"}
+        {"key": "primaryColumns.customColumn1.onClick"},
+        {"key": "primaryColumns.customColumn2.onClick"}
     ],
     "borderWidth": "1",
     "primaryColumns": {
@@ -204,6 +205,7 @@
         "customColumn2": {
             "boxShadow": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( \"none\"))}}",
             "computedValue": "",
+            "onClick": "{{showModal('Modal1');}}",
             "buttonColor": "{{Table1.processedTableData.map((currentRow, currentIndex) => ( (appsmith.theme.colors.primaryColor)))}}",
             "isEditable": false,
             "notation": "standard",

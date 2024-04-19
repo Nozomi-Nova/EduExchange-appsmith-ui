@@ -1,0 +1,3 @@
+{
+    "new_name": {{JSONForm2.formData.name}}
+}
