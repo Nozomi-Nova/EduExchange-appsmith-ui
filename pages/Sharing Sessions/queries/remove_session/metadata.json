@@ -30,7 +30,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "",
+      "body": "{\n\t\"offer_id\": \"{{JSONForm3.formData.offer_id}}\"\n}",
       "bodyFormData": [],
       "httpMethod": "DELETE",
       "httpVersion": "HTTP11",
@@ -54,6 +54,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
+      "JSONForm3.formData.offer_id",
       "JSON_remove.formData.session_id"
     ],
     "userSetOnLoad": false,

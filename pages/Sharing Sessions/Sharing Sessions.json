@@ -59,7 +59,8 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "select_comm.selectedOptionValue"
+                "select_comm.selectedOptionValue",
+                "JSONForm1.formData"
               ],
               "timeoutInMillisecond": 10000
             }

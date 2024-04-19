@@ -30,7 +30,7 @@
       ],
       "encodeParamsToggle": true,
       "queryParameters": [],
-      "body": "",
+      "body": "{{JSONForm1.formData}}",
       "bodyFormData": [],
       "httpMethod": "GET",
       "httpVersion": "HTTP11",
@@ -54,6 +54,7 @@
     "invalids": [],
     "messages": [],
     "jsonPathKeys": [
+      "JSONForm1.formData",
       "select_comm.selectedOptionValue"
     ],
     "userSetOnLoad": false,
