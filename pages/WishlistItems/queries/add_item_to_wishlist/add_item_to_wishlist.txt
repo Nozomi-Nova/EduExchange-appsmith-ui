@@ -1,3 +1,4 @@
 {
+	"wishlist_id": {{appsmith.store.wishlist_id}},
 	"textbook_id": {{all_textbooks.selectedRow.TextbookID}}
 }
