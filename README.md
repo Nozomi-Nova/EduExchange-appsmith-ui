@@ -31,4 +31,4 @@ Upon accessing the UI with the provided link, you will be directed to the homepa
 Thank you for using EduShare Hub!
 
 ## Demo
-- Demo located at following URL (sorry in advance for the poor quality): [https://youtu.be/_TPQKjX5T2U](https://youtu.be/_TPQKjX5T2U)
+- Demo located at following URL (sorry in advance for the poor quality): https://youtu.be/im4cexqm_8E
